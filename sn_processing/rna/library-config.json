@@ -1,0 +1,188 @@
+{
+    "libraries": {
+        "647-NM-1": {
+            "readgroups": {
+                "647-NM-1-3GEX_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-1-3GEX_a/647-NM-1-3GEX_S1_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-1-3GEX_a/647-NM-1-3GEX_S1_L000_R2_001.fastq.gz"
+                },
+                "647-NM-1-3GEX_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-1-3GEX_b/647-NM-1-3GEX_S2_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-1-3GEX_b/647-NM-1-3GEX_S2_L000_R2_001.fastq.gz"
+                },
+                "647-NM-1-3GEX_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-1-3GEX_c/647-NM-1-3GEX_S3_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-1-3GEX_c/647-NM-1-3GEX_S3_L000_R2_001.fastq.gz"
+                },
+                "647-NM-1-3GEX_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-1-3GEX_d/647-NM-1-3GEX_S4_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-1-3GEX_d/647-NM-1-3GEX_S4_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        },
+        "647-NM-2": {
+            "readgroups": {
+                "647-NM-2-3GEX_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-2-3GEX_a/647-NM-2-3GEX_S5_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-2-3GEX_a/647-NM-2-3GEX_S5_L000_R2_001.fastq.gz"
+                },
+                "647-NM-2-3GEX_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-2-3GEX_b/647-NM-2-3GEX_S6_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-2-3GEX_b/647-NM-2-3GEX_S6_L000_R2_001.fastq.gz"
+                },
+                "647-NM-2-3GEX_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-2-3GEX_c/647-NM-2-3GEX_S7_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-2-3GEX_c/647-NM-2-3GEX_S7_L000_R2_001.fastq.gz"
+                },
+                "647-NM-2-3GEX_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-2-3GEX_d/647-NM-2-3GEX_S8_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-2-3GEX_d/647-NM-2-3GEX_S8_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        },
+        "647-NM-3": {
+            "readgroups": {
+                "647-NM-3-3GEX_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-3-3GEX_a/647-NM-3-3GEX_S9_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-3-3GEX_a/647-NM-3-3GEX_S9_L000_R2_001.fastq.gz"
+                },
+                "647-NM-3-3GEX_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-3-3GEX_b/647-NM-3-3GEX_S10_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-3-3GEX_b/647-NM-3-3GEX_S10_L000_R2_001.fastq.gz"
+                },
+                "647-NM-3-3GEX_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-3-3GEX_c/647-NM-3-3GEX_S11_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-3-3GEX_c/647-NM-3-3GEX_S11_L000_R2_001.fastq.gz"
+                },
+                "647-NM-3-3GEX_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-3-3GEX_d/647-NM-3-3GEX_S12_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-3-3GEX_d/647-NM-3-3GEX_S12_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        },
+        "647-NM-4": {
+            "readgroups": {
+                "647-NM-4-3GEX_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-4-3GEX_a/647-NM-4-3GEX_S13_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-4-3GEX_a/647-NM-4-3GEX_S13_L000_R2_001.fastq.gz"
+                },
+                "647-NM-4-3GEX_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-4-3GEX_b/647-NM-4-3GEX_S14_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-4-3GEX_b/647-NM-4-3GEX_S14_L000_R2_001.fastq.gz"
+                },
+                "647-NM-4-3GEX_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-4-3GEX_c/647-NM-4-3GEX_S15_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-4-3GEX_c/647-NM-4-3GEX_S15_L000_R2_001.fastq.gz"
+                },
+                "647-NM-4-3GEX_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-4-3GEX_d/647-NM-4-3GEX_S16_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-4-3GEX_d/647-NM-4-3GEX_S16_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        },
+        "647-NM-5": {
+            "readgroups": {
+                "647-NM-5-3GEX_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-5-3GEX_a/647-NM-5-3GEX_S17_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-5-3GEX_a/647-NM-5-3GEX_S17_L000_R2_001.fastq.gz"
+                },
+                "647-NM-5-3GEX_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-5-3GEX_b/647-NM-5-3GEX_S18_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-5-3GEX_b/647-NM-5-3GEX_S18_L000_R2_001.fastq.gz"
+                },
+                "647-NM-5-3GEX_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-5-3GEX_c/647-NM-5-3GEX_S19_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-5-3GEX_c/647-NM-5-3GEX_S19_L000_R2_001.fastq.gz"
+                },
+                "647-NM-5-3GEX_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-5-3GEX_d/647-NM-5-3GEX_S20_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-5-3GEX_d/647-NM-5-3GEX_S20_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        },
+        "647-NM-6": {
+            "readgroups": {
+                "647-NM-6-3GEX_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-6-3GEX_a/647-NM-6-3GEX_S21_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-6-3GEX_a/647-NM-6-3GEX_S21_L000_R2_001.fastq.gz"
+                },
+                "647-NM-6-3GEX_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-6-3GEX_b/647-NM-6-3GEX_S22_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-6-3GEX_b/647-NM-6-3GEX_S22_L000_R2_001.fastq.gz"
+                },
+                "647-NM-6-3GEX_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-6-3GEX_c/647-NM-6-3GEX_S23_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-6-3GEX_c/647-NM-6-3GEX_S23_L000_R2_001.fastq.gz"
+                },
+                "647-NM-6-3GEX_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-6-3GEX_d/647-NM-6-3GEX_S24_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-6-3GEX_d/647-NM-6-3GEX_S24_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        },
+        "647-NM-7": {
+            "readgroups": {
+                "647-NM-7-3GEX_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-7-3GEX_a/647-NM-7-3GEX_S25_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-7-3GEX_a/647-NM-7-3GEX_S25_L000_R2_001.fastq.gz"
+                },
+                "647-NM-7-3GEX_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-7-3GEX_b/647-NM-7-3GEX_S26_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-7-3GEX_b/647-NM-7-3GEX_S26_L000_R2_001.fastq.gz"
+                },
+                "647-NM-7-3GEX_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-7-3GEX_c/647-NM-7-3GEX_S27_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-7-3GEX_c/647-NM-7-3GEX_S27_L000_R2_001.fastq.gz"
+                },
+                "647-NM-7-3GEX_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-7-3GEX_d/647-NM-7-3GEX_S28_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-7-3GEX_d/647-NM-7-3GEX_S28_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        },
+        "647-NM-8": {
+            "readgroups": {
+                "647-NM-8-3GEX_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-8-3GEX_a/647-NM-8-3GEX_S29_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-8-3GEX_a/647-NM-8-3GEX_S29_L000_R2_001.fastq.gz"
+                },
+                "647-NM-8-3GEX_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-8-3GEX_b/647-NM-8-3GEX_S30_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-8-3GEX_b/647-NM-8-3GEX_S30_L000_R2_001.fastq.gz"
+                },
+                "647-NM-8-3GEX_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-8-3GEX_c/647-NM-8-3GEX_S31_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-8-3GEX_c/647-NM-8-3GEX_S31_L000_R2_001.fastq.gz"
+                },
+                "647-NM-8-3GEX_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-8-3GEX_d/647-NM-8-3GEX_S32_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/rna/647-NM/Sample_647-NM-8-3GEX_d/647-NM-8-3GEX_S32_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        }
+    }
+}

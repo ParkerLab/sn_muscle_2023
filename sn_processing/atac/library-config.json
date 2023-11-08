@@ -1,0 +1,220 @@
+{
+    "libraries": {
+        "647-NM-1": {
+            "readgroups": {
+                "647-NM-1-ATAC_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-1-ATAC_a/647-NM-1-ATAC_S1_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-1-ATAC_a/647-NM-1-ATAC_S1_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-1-ATAC_a/647-NM-1-ATAC_S1_L000_R2_001.fastq.gz"
+                },
+                "647-NM-1-ATAC_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-1-ATAC_b/647-NM-1-ATAC_S2_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-1-ATAC_b/647-NM-1-ATAC_S2_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-1-ATAC_b/647-NM-1-ATAC_S2_L000_R2_001.fastq.gz"
+                },
+                "647-NM-1-ATAC_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-1-ATAC_c/647-NM-1-ATAC_S3_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-1-ATAC_c/647-NM-1-ATAC_S3_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-1-ATAC_c/647-NM-1-ATAC_S3_L000_R2_001.fastq.gz"
+                },
+                "647-NM-1-ATAC_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-1-ATAC_d/647-NM-1-ATAC_S4_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-1-ATAC_d/647-NM-1-ATAC_S4_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-1-ATAC_d/647-NM-1-ATAC_S4_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        },
+        "647-NM-2": {
+            "readgroups": {
+                "647-NM-2-ATAC_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-2-ATAC_a/647-NM-2-ATAC_S5_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-2-ATAC_a/647-NM-2-ATAC_S5_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-2-ATAC_a/647-NM-2-ATAC_S5_L000_R2_001.fastq.gz"
+                },
+                "647-NM-2-ATAC_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-2-ATAC_b/647-NM-2-ATAC_S6_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-2-ATAC_b/647-NM-2-ATAC_S6_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-2-ATAC_b/647-NM-2-ATAC_S6_L000_R2_001.fastq.gz"
+                },
+                "647-NM-2-ATAC_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-2-ATAC_c/647-NM-2-ATAC_S7_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-2-ATAC_c/647-NM-2-ATAC_S7_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-2-ATAC_c/647-NM-2-ATAC_S7_L000_R2_001.fastq.gz"
+                },
+                "647-NM-2-ATAC_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-2-ATAC_d/647-NM-2-ATAC_S8_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-2-ATAC_d/647-NM-2-ATAC_S8_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-2-ATAC_d/647-NM-2-ATAC_S8_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        },
+        "647-NM-3": {
+            "readgroups": {
+                "647-NM-3-ATAC_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-3-ATAC_a/647-NM-3-ATAC_S9_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-3-ATAC_a/647-NM-3-ATAC_S9_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-3-ATAC_a/647-NM-3-ATAC_S9_L000_R2_001.fastq.gz"
+                },
+                "647-NM-3-ATAC_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-3-ATAC_b/647-NM-3-ATAC_S10_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-3-ATAC_b/647-NM-3-ATAC_S10_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-3-ATAC_b/647-NM-3-ATAC_S10_L000_R2_001.fastq.gz"
+                },
+                "647-NM-3-ATAC_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-3-ATAC_c/647-NM-3-ATAC_S11_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-3-ATAC_c/647-NM-3-ATAC_S11_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-3-ATAC_c/647-NM-3-ATAC_S11_L000_R2_001.fastq.gz"
+                },
+                "647-NM-3-ATAC_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-3-ATAC_d/647-NM-3-ATAC_S12_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-3-ATAC_d/647-NM-3-ATAC_S12_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-3-ATAC_d/647-NM-3-ATAC_S12_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        },
+        "647-NM-4": {
+            "readgroups": {
+                "647-NM-4-ATAC_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-4-ATAC_a/647-NM-4-ATAC_S13_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-4-ATAC_a/647-NM-4-ATAC_S13_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-4-ATAC_a/647-NM-4-ATAC_S13_L000_R2_001.fastq.gz"
+                },
+                "647-NM-4-ATAC_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-4-ATAC_b/647-NM-4-ATAC_S14_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-4-ATAC_b/647-NM-4-ATAC_S14_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-4-ATAC_b/647-NM-4-ATAC_S14_L000_R2_001.fastq.gz"
+                },
+                "647-NM-4-ATAC_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-4-ATAC_c/647-NM-4-ATAC_S15_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-4-ATAC_c/647-NM-4-ATAC_S15_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-4-ATAC_c/647-NM-4-ATAC_S15_L000_R2_001.fastq.gz"
+                },
+                "647-NM-4-ATAC_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-4-ATAC_d/647-NM-4-ATAC_S16_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-4-ATAC_d/647-NM-4-ATAC_S16_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-4-ATAC_d/647-NM-4-ATAC_S16_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        },
+        "647-NM-5": {
+            "readgroups": {
+                "647-NM-5-ATAC_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-5-ATAC_a/647-NM-5-ATAC_S17_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-5-ATAC_a/647-NM-5-ATAC_S17_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-5-ATAC_a/647-NM-5-ATAC_S17_L000_R2_001.fastq.gz"
+                },
+                "647-NM-5-ATAC_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-5-ATAC_b/647-NM-5-ATAC_S18_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-5-ATAC_b/647-NM-5-ATAC_S18_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-5-ATAC_b/647-NM-5-ATAC_S18_L000_R2_001.fastq.gz"
+                },
+                "647-NM-5-ATAC_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-5-ATAC_c/647-NM-5-ATAC_S19_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-5-ATAC_c/647-NM-5-ATAC_S19_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-5-ATAC_c/647-NM-5-ATAC_S19_L000_R2_001.fastq.gz"
+                },
+                "647-NM-5-ATAC_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-5-ATAC_d/647-NM-5-ATAC_S20_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-5-ATAC_d/647-NM-5-ATAC_S20_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-5-ATAC_d/647-NM-5-ATAC_S20_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        },
+        "647-NM-6": {
+            "readgroups": {
+                "647-NM-6-ATAC_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-6-ATAC_a/647-NM-6-ATAC_S21_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-6-ATAC_a/647-NM-6-ATAC_S21_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-6-ATAC_a/647-NM-6-ATAC_S21_L000_R2_001.fastq.gz"
+                },
+                "647-NM-6-ATAC_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-6-ATAC_b/647-NM-6-ATAC_S22_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-6-ATAC_b/647-NM-6-ATAC_S22_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-6-ATAC_b/647-NM-6-ATAC_S22_L000_R2_001.fastq.gz"
+                },
+                "647-NM-6-ATAC_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-6-ATAC_c/647-NM-6-ATAC_S23_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-6-ATAC_c/647-NM-6-ATAC_S23_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-6-ATAC_c/647-NM-6-ATAC_S23_L000_R2_001.fastq.gz"
+                },
+                "647-NM-6-ATAC_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-6-ATAC_d/647-NM-6-ATAC_S24_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-6-ATAC_d/647-NM-6-ATAC_S24_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-6-ATAC_d/647-NM-6-ATAC_S24_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        },
+        "647-NM-7": {
+            "readgroups": {
+                "647-NM-7-ATAC_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-7-ATAC_a/647-NM-7-ATAC_S25_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-7-ATAC_a/647-NM-7-ATAC_S25_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-7-ATAC_a/647-NM-7-ATAC_S25_L000_R2_001.fastq.gz"
+                },
+                "647-NM-7-ATAC_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-7-ATAC_b/647-NM-7-ATAC_S26_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-7-ATAC_b/647-NM-7-ATAC_S26_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-7-ATAC_b/647-NM-7-ATAC_S26_L000_R2_001.fastq.gz"
+                },
+                "647-NM-7-ATAC_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-7-ATAC_c/647-NM-7-ATAC_S27_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-7-ATAC_c/647-NM-7-ATAC_S27_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-7-ATAC_c/647-NM-7-ATAC_S27_L000_R2_001.fastq.gz"
+                },
+                "647-NM-7-ATAC_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-7-ATAC_d/647-NM-7-ATAC_S28_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-7-ATAC_d/647-NM-7-ATAC_S28_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-7-ATAC_d/647-NM-7-ATAC_S28_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        },
+        "647-NM-8": {
+            "readgroups": {
+                "647-NM-8-ATAC_a": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-8-ATAC_a/647-NM-8-ATAC_S29_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-8-ATAC_a/647-NM-8-ATAC_S29_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-8-ATAC_a/647-NM-8-ATAC_S29_L000_R2_001.fastq.gz"
+                },
+                "647-NM-8-ATAC_b": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-8-ATAC_b/647-NM-8-ATAC_S30_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-8-ATAC_b/647-NM-8-ATAC_S30_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-8-ATAC_b/647-NM-8-ATAC_S30_L000_R2_001.fastq.gz"
+                },
+                "647-NM-8-ATAC_c": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-8-ATAC_c/647-NM-8-ATAC_S31_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-8-ATAC_c/647-NM-8-ATAC_S31_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-8-ATAC_c/647-NM-8-ATAC_S31_L000_R2_001.fastq.gz"
+                },
+                "647-NM-8-ATAC_d": {
+                    "1": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-8-ATAC_d/647-NM-8-ATAC_S32_L000_R1_001.fastq.gz",
+                    "2": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-8-ATAC_d/647-NM-8-ATAC_S32_L000_R3_001.fastq.gz",
+                    "index": "/gpfs/accounts/scjp_root/scjp99/arushiv/seqcore/atac/647-NM/Sample_647-NM-8-ATAC_d/647-NM-8-ATAC_S32_L000_R2_001.fastq.gz"
+                }
+            },
+            "genome": [
+                "hg38"
+            ]
+        }
+    }
+}

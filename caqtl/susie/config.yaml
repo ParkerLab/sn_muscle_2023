@@ -1,0 +1,24 @@
+# run on wolverine or greatlakes
+system: "gl"
+
+
+# phenotype bedfiles same as caQTL  
+bed: ["data/tpm-matrices/*.bed.gz", ".bed.gz"]
+
+# covariates
+covs: ["data/sample-info/*-covariates.tsv", "-covariates.tsv"]
+
+# selected covariates
+covlists: "data/covariate-lists"
+
+# loci
+loci: ["data/caqtl-signals/*.caqtl.tsv", ".caqtl.tsv"]
+
+# vcf
+vcf: "data/filtered-vcf.maf0.05-hwe1e6.recode.vcf.gz"
+vcf_index: "data/filtered-vcf.maf0.05-hwe1e6.recode.vcf.gz.tbi"
+
+# window
+window: 250000
+
+min_abs_cor: 0.1

@@ -1,0 +1,15 @@
+# run on wolverine or greatlakes
+system: "wolverine"
+
+# coloc summary
+coloc: "data/summary.tsv"
+# phenotypes
+eqtl_pheno: ["data/eqtl_phenotypes/*.bed.gz", ".bed.gz"]
+caqtl_pheno: ["data/caqtl_phenotypes/*.bed.gz", ".bed.gz"]
+
+# covariates
+covs: "data/samplecovs.tsv"
+
+vcf: "data/filtered-vcf.maf0.05-hwe1e6.recode.vcf.gz"
+
+nperm: 100

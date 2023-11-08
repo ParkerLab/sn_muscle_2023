@@ -1,0 +1,58 @@
+# qtl vcf
+qtl_vcf: "data/filtered-vcf.maf0.05-hwe1e6.recode.vcf.gz"
+qtl_vcf_index: "data/filtered-vcf.maf0.05-hwe1e6.recode.vcf.gz.tbi"
+
+# cit
+coloc: "data/summary.tsv"
+# caqtl cis
+caqtl_cis: ["data/caqtl-cis-indexed/*.bed.gz", ".bed.gz"]
+caqtl_glob: "/lab/work/arushiv/muscle-sn/analyses_hg38/caqtl/consensus_0327_freeze/results/cafiles/*.txt"
+# eqtl cis
+eqtl_cis: ["data/eqtl-cis-indexed/*.bed.gz", ".bed.gz"]
+eqtl_glob: "/lab/work/arushiv/muscle-sn/analyses_hg38/eqtl/eqtl_11/results/eqfiles/*.txt"
+# eqtl_coloc genes
+eqtl_coloc_genes: ["data/eqtl-coloc-genes/*.txt", ".genes.txt"]
+
+# caqtl_coloc genes
+caqtl_coloc_genes: ["data/caqtl-coloc-genes/*.txt", ".genes.txt"]
+
+# eqtl_coloc genes
+eqtl_samples:
+  
+
+# caqtl_coloc genes
+caqtl_samples:
+  fusion.Adipocyte: 191
+  fusion.aggregate: 281
+  fusion.Endothelial: 281
+  fusion.Macrophage: 77
+  fusion.Mesenchymal_Stem_Cell: 272
+  fusion.Muscle_Fiber_Mixed: 155
+  fusion.Neuromuscular_junction: 146
+  fusion.Neuronal: 251
+  fusion.Satellite_Cell: 175
+  fusion.Smooth_Muscle: 268
+  fusion.T_cell: 278
+  fusion.Type_1: 280
+  fusion.Type_2a: 277
+  fusion.Type_2x: 279
+
+eqtl_samples:
+  fusion.Adipocyte: 112
+  fusion.aggregate: 287
+  fusion.Endothelial: 284
+  fusion.Macrophage: 263
+  fusion.Mesenchymal_Stem_Cell: 283
+  fusion.Muscle_Fiber_Mixed: 200
+  fusion.Neuromuscular_junction: 277
+  fusion.Neuronal: 244
+  fusion.Satellite_Cell: 277
+  fusion.Smooth_Muscle: 282
+  fusion.T_cell: 130
+  fusion.Type_1: 287
+  fusion.Type_2a: 287
+  fusion.Type_2x: 284
+    
+# bdir: "data/refld_1kg_plink/"
+bdir: "data/plink_files/"
+mrsteiger: true

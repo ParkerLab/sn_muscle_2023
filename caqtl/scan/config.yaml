@@ -1,0 +1,16 @@
+cluster_info: "data/cluster_info_qc.tsv"
+vcf: "data/fusion.filtered-vcf.maf0.05-hwe1e6.vcf.gz"
+vcf_index: "data/fusion.filtered-vcf.maf0.05-hwe1e6.vcf.gz.tbi"
+samplelists: ["data/sample-id-lists/*.sample_id_list.txt", ".sample_id_list.txt"] # just the sample id
+selected_samples: ["data/sample-lists/*.sample_list.txt", ".sample_list.txt"] # sample-batch ids
+sample_info: "data/sample_level_covariates.tsv"
+atac_mtx_dir: ["data/atac-counts-matrices/*.tsv", ".tsv"]
+selected_summits: ["data/master-summit-features/*.selected_summit_features.txt", ".selected_summit_features.txt"]
+n_pheno_pcs: [5, 10, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 80, 100]
+n_geno_pcs: [3]
+other_covs: ['hqaa_umi_median', 'fraction_mitochondrial_median', 'n_nuclei', 'tss_enrichment', 'age', 'sex', 'batch', 'bmi']
+permutations: 1000
+window: 10000
+cis_window: 1000000
+total_chunks: 30
+# select_clusters: ['fusion.Endothelial', 'fusion.Mesenchymal_Stem_Cell', 'fusion.Type_1', 'fusion.Type_2a', 'fusion.Type_2x']

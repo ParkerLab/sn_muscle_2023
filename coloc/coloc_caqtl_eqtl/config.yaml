@@ -1,0 +1,8 @@
+# run on wolverine or greatlakes
+system: "wolverine"
+
+# coloc pairs
+eqtl: "data/eqtl/"
+caqtl: "data/caqtl/"
+
+gene_info: "data/gencode.v30.gene_lengths.tsv"

@@ -1,0 +1,78 @@
+### PROVIDE absolute paths to all files
+### PROVIDE root path for the analysis; 
+base: "/gpfs/accounts/scjp_root/scjp99/arushiv/muscle-sn/analyses_hg38/coloc_01_23/susie_gwas"
+
+# gwas lead SNPs with locus info in the fourth column
+trait1-leads: "{base}/data/gwas-leads/*.bed"
+
+# indexed GWAS summary stats directory, should contain tabix indexed GWAS summary stats for each trait
+# should have columns beta and se
+trait1-dir: "{base}/data/gwas-indexed/"
+
+## UKBB reference vcf per chrom
+trait1-ref: "{base}/data/hg38/"
+## Is the UKBB vcf chrom is of the format chr10 (chr) or 10 (int)
+trait1-ref-format: "chr"
+# how much flanking the gwas lead SNP should the SuSiE interval be considered?
+# if there is a fifth column in the lead SNP bed file trait1-leads specifying window size in bp, that will be considered.
+# else, window size list below will be used as default to run for all signals. Multiple items in list mean each signal will be run with multiple windows:
+susie-window: [250000]
+
+## prep sh file template:
+prep-template: "{base}/scripts/bin/prep-template.sh"
+susie-template: "{base}/scripts/bin/susie-template.sh"
+
+## if the SuSiE credible sets don't contain the intended signal lead SNP (fourth column of trait1-leads bed file), should those sets be dropped?
+# dropsets-if-not-contain-lead: True
+
+## If trait1 is case-control (cc) - just need beta and se. If not, we need maf, column name for N samples and fraction of cases
+##  If trait1 is quantitative (quant), sdY is likely not available. We'd need maf, column name for N samples
+trait1-info: {
+  beta: "beta",
+  se: "se",
+  p: "pval", ## column name for pvalue in gwas summary stats
+  coverage: 0.95,
+  r2_prune: 0.8,
+  maxit: 10000,
+  min_abs_corr: 0.1,
+  s_threshold: 0.3,
+  number_signals: 10,
+  number_signals_high_s: 1,
+  reduce_coverage: 0.9, ## if no credible sets are found, reduce coverage till this value sequentially by 0.05
+  dropsets_if_no_proxy: 0.8, ## drop sets that don't contain either the marker SNP iteself or at least one proxy SNP r2>= this value
+  sdY: 1 # applies to quantitative traits only. As of now all quant traits taken were std. normalized
+  }
+
+
+trait1-type: {
+  COVID19_A2_eur: "cc",
+  COVID19_B2_eur: "cc",
+  COVID19_C2_eur: "cc",
+  cardio-ukbb_CAD: "cc",
+  nielsen_atrial-fibrillation: "cc",
+  giant-ukbb_BMI: "quant",
+  giant-ukbb_WHRadjbmi: "quant",
+  childhood-bmi_1.5years: "quant",
+  childhood-bmi_1year: "quant",
+  childhood-bmi_2years: "quant",
+  childhood-bmi_3months: "quant",
+  childhood-bmi_3years: "quant",
+  childhood-bmi_5years: "quant",
+  childhood-bmi_6months: "quant",
+  childhood-bmi_6weeks: "quant",
+  childhood-bmi_7years: "quant",
+  childhood-bmi_8months: "quant",
+  childhood-bmi_8years: "quant",
+  childhood-bmi_birth: "quant",
+  diamante_T2D-European: "quant",
+  exercise_leisure-screen-time: "quant",
+  exercise_pa-leisure-screen-time: "quant",
+  exercise_sedantry-commute: "quant",
+  exercise_sedantry-work: "quant",
+  MAGIC_2hGlu-EUR: "quant",
+  MAGIC_FG-EUR: "quant",
+  MAGIC_FI-EUR: "quant",
+  MAGIC_HbA1c-EUR: "quant",
+  ukbb_creatinine: "quant"
+}
+

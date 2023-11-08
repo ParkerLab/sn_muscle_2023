@@ -1,0 +1,16 @@
+# run on wolverine or greatlakes
+system: "wolverine"
+
+# coloc pairs
+caqtl: "/lab/work/arushiv/muscle-sn/analyses_hg38/caqtl/susie_caqtl/results/susie_window250000_min_abs_cor0.1/"
+gwas: ["/lab/work/arushiv/muscle-sn/analyses_hg38/coloc_01_23/susie_gwas/results/susie",
+"/lab/work/arushiv/muscle-sn/analyses_hg38/coloc_01_23/susie_ukbb/results/susie",
+"/lab/work/arushiv/muscle-sn/analyses_hg38/coloc_01_23/susie_gwas_magic2023/results/susie"
+]
+
+# ukbb rsid to match
+ukbb_rsid: "data/ukbb-rsid.vcf.gz"
+ukbb_rsid_index: "data/ukbb-rsid.vcf.gz.tbi"
+
+# more gwas info like informative traitnames for plotting
+pheno: "data/selected_traits_for_coloc.tsv"

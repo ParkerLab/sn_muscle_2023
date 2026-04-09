@@ -64,7 +64,7 @@ trait1-type: {
   childhood-bmi_8months: "quant",
   childhood-bmi_8years: "quant",
   childhood-bmi_birth: "quant",
-  diamante_T2D-European: "quant",
+  diamante_T2D-European: "cc",
   exercise_leisure-screen-time: "quant",
   exercise_pa-leisure-screen-time: "quant",
   exercise_sedantry-commute: "quant",
